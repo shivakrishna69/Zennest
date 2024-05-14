@@ -1,0 +1,145 @@
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1{
+    font-family: "DM Serif Display", serif;
+    font-weight: 700;
+    font-style: normal;
+    
+}
+
+h1.heading{
+    font-size: 70px;
+}
+h1.heading-2{
+    font-size: 80px;
+}
+span{
+    color: #145DA0;
+}
+h1.heading-1{
+    font-size: 220px;
+   letter-spacing: 5px;
+}
+
+img.img-fluid.img{
+   margin-top: -150px;
+    
+}
+
+
+button.butn{
+    background: #145DA0;
+    color: white;
+    width: 25%;
+    height: 15%;
+    border: none !important;
+    border-radius: 8px;
+    font-size: 20px;
+    transition: 1s;
+
+}
+button.butn:hover{
+    background-color: navy;
+    
+}
+
+@media(max-width:768px){
+    img.img-fluid.img{
+        margin-top: 0px;
+         
+     } 
+     h1.heading-1{
+        font-size: 100px;
+       
+    }
+}
+@media(max-width:320px){
+   
+     h1.heading-1{
+        font-size: 60px;
+       
+    }
+}
+
+img.round{
+  position: relative;
+  top: -210px;
+  left: -90px;
+   clip-path: circle();
+}
+.col-lg-10.mx-auto.text-center.text,.col-md-12.col-sm-12.text{
+    margin-top: -80px;
+}
+.fa-regular.fa-star.icon {
+    font-size: 50px;
+    background-color: rgb(49, 71, 170);
+    color: white;
+    padding: 16px;
+    border-radius: 8px;
+    
+   
+}
+container.mt-5.text{
+    border: 1px solid grey;
+}
+
+img.circle{
+    clip-path: circle();
+    position: relative;
+    top: -8rem;
+    left: 15rem;
+
+}
+h1.text{
+    font-size: 80px;
+    font-weight: 700;
+}
+
+p.text{
+    position: relative;
+    top: -111px;
+    background-color: white;
+    padding: 31px;
+    box-shadow: 0px 5px 5px 0px;
+}
+
+img.image{
+    clip-path: circle();
+    background-color: aqua;
+}
+img.image{
+    position: relative;
+    width: 100px;
+    clip-path: circle();
+    top: -100px;
+}
+
+.col-md-12.justify-content-center.d-flex.mt-3,.col-md-12.text-center.mt-3,.col-md-12.mt-3{
+    position: relative !important;
+    top: -50px;
+}
+button.carousel-control-next{
+    left: 40rem;
+    top: -3rem;
+    position: relative;  
+}
+button.carousel-control-prev {
+    left: 35rem;
+    top: rem;
+    position: relative; 
+}
+
+img.img-fluid.imge{
+    position: relative;
+    top: -26rem;
+}
+button.btn.btn{
+    position: relative;
+    left: -5rem;
+    top: 10px;
+    width: 10%;
+    font-size: 18px;
+}
